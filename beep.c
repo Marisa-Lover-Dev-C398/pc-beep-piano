@@ -92,10 +92,7 @@ int main(int argc, char *argv[]) {
         return 1;
     }
     
-    printf("=== 簡易キーボード（PCスピーカー版） ===\n");
-    printf("対応キー: z, s, x, d, c, v, g, b, h, n, j, m, comma, l, dot, semicolon, slash, 2, w, 3, e, r, 5, t, 6, y, 7, u, i, 9, o, 0, p\n");
-    printf("終了するには 'Q' キーを押すんだぜ！\n");
-    printf("====================================\n");
+    printf("=== BeepKeyboard ===\n");
     
     struct input_event ev;
     while (1) {
